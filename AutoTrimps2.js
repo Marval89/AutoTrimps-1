@@ -218,5 +218,9 @@ var globalvar0,globalvar1,globalvar2,globalvar3,globalvar4,globalvar5,globalvar6
 //left blank intentionally. the user will provide this. blank global vars are included as an example
 function userscripts()
 {
+  if(currentworld < 350)
+changeGeneratorState(1)
+  if(currentworld >=350)
+    changeGeneratorState(0)
     //insert code here:
 }
